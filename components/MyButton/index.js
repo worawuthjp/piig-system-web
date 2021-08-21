@@ -3,7 +3,7 @@ import { ButtonStyle } from './styeld';
 
 export default function MyButton({ children, className, ...props }) {
   return (
-    <ButtonStyle {...props} className={className}>
+    <ButtonStyle className={className} {...props}>
       {children}
     </ButtonStyle>
   );

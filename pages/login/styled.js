@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import variables from 'theme/variables';
-
-export const LoginStyle = styled.div`
+const LoginStyle = styled.div`
   background: ${variables.COLORS.BLACKTHEME};
   height: 100vh;
   width: 100%;
@@ -17,3 +16,4 @@ export const LoginStyle = styled.div`
     display: block;
   }
 `;
+export default LoginStyle;

@@ -3,7 +3,7 @@ import MyCard from 'components/MyCard';
 import PiiGLogo from 'components/PiiGLogo';
 import React from 'react';
 import { Container, Form, Row } from 'react-bootstrap';
-import { RegisterStyle } from './styled';
+import RegisterStyle from './styled';
 
 export default function Register() {
   return (

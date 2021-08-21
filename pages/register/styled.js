@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import variables from 'theme/variables';
-
-export const RegisterStyle = styled.div`
+const RegisterStyle = styled.div`
   background: ${variables.COLORS.BLACKTHEME};
   height: 100vh;
   width: 100%;
@@ -17,3 +16,4 @@ export const RegisterStyle = styled.div`
     display: block;
   }
 `;
+export default RegisterStyle;

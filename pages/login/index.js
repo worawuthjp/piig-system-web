@@ -4,14 +4,14 @@ import PiiGLogo from 'components/PiiGLogo';
 import React from 'react';
 import Link from 'next/link';
 import { Container, Form, Row } from 'react-bootstrap';
-import { LoginStyle } from './styled';
+import LoginStyle from './styled';
 
 export default function Login() {
   return (
     <LoginStyle>
       <Container>
         <Row className="mt-5">
-          <PiiGLogo className="ml-auto mr-auto" />
+          <PiiGLogo className="ml-auto mr-auto" isCenter />
         </Row>
 
         <Row className="header">เข้าสู่ระบบ</Row>
@@ -44,7 +44,6 @@ export default function Login() {
           </Link>
         </Row>
       </Container>
-
     </LoginStyle>
   );
 }
