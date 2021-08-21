@@ -10,7 +10,7 @@ export default function Register() {
     <RegisterStyle>
       <Container>
         <Row className="mt-5">
-          <PiiGLogo className="ml-auto mr-auto" />
+          <PiiGLogo isCenter />
         </Row>
 
         <Row className="header">Create Member Account</Row>
