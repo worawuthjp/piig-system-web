@@ -12,9 +12,15 @@ html,
     font-weight: normal;
   }
 
+  *, :before, :after {
+    box-sizing: border-box;
+    font-family: ${variables.TYPOGRAPHYS.FONT_FAMILIES.PRIMARY}, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  }
+
+
   .error-msg{
     color: ${variables.COLORS.ERRORMSG}
   }
 
-  
+
 `;

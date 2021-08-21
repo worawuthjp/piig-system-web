@@ -2,14 +2,13 @@ import MyButton from 'components/MyButton';
 import MyCard from 'components/MyCard';
 import PiiGLogo from 'components/PiiGLogo';
 import React from 'react';
+import Link from 'next/link';
 import { Container, Form, Row } from 'react-bootstrap';
-import { GlobalStyle } from 'styles/global';
 import { LoginStyle } from './styled';
 
 export default function Login() {
   return (
     <LoginStyle>
-      <GlobalStyle />
       <Container>
         <Row className="mt-5">
           <PiiGLogo className="ml-auto mr-auto" />
@@ -38,7 +37,14 @@ export default function Login() {
             </Form>
           </MyCard>
         </Row>
+
+        <Row className="mt-3">
+          <Link href="#">
+            <a className="ml-auto mr-auto">ลืมรหัสผ่าน</a>
+          </Link>
+        </Row>
       </Container>
+
     </LoginStyle>
   );
 }
