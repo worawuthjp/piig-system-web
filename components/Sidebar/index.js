@@ -8,7 +8,7 @@ export default function MySideBar() {
     <SidebarStyle>
       <Link href="#">
         <a className="text-sidebar col-md-12">
-          <Image className="img" src="assets/images/profiles/profile1.svg" />
+          <Image className="img" src="assets/images/profiles/profile1.svg" roundedCircle fluid />
           <span className="text-username">Admin0011</span>
         </a>
       </Link>
